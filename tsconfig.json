@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "$lib/*": ["src/lib/*"],
       "$utils": ["src/utils/index.ts"],
       "$utils/*": ["src/utils/*"]
     },

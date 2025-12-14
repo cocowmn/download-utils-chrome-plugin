@@ -1,3 +1,9 @@
+export const IMAGE_TYPE_IMG = '<img>';
+export const IMAGE_TYPE_URL = 'url';
+export const IMAGE_TYPE_SVG = '<svg>';
+export const IMAGE_TYPE_CANVAS = '<canvas>';
+export const IMAGE_TYPE_UNKNOWN = 'unknown';
+
 export const MIME_TO_EXTENSION_MAP: Record<string, string> = {
   'image/jpeg': 'jpg',
   'image/jpg': 'jpg',

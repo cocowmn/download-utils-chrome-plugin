@@ -1,9 +1,11 @@
 /* -------------------------------------------------------------------------- */
 /* Public APIs                                                                */
 /* -------------------------------------------------------------------------- */
+/**
+ *  Note: Since this API bundles jszip, the final js file ends up being 120KB+
+ */
 
-import { downloadImage, downloadImages, imageToBlob } from '$lib/images/api';
+import { Archive, downloadArchives } from '$lib/archive';
 
-window.imageToBlob = imageToBlob;
-window.downloadImage = downloadImage;
-window.downloadImages = downloadImages;
+window.Archive = Archive;
+window.downloadArchives = downloadArchives;

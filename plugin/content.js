@@ -1,6 +1,7 @@
 const scripts = [
   // start script list
   'image-downloader',
+  'archive',
   // end script list
 ].map((script) => `modules/${script}.js`);
 

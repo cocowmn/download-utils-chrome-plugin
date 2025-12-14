@@ -12,8 +12,9 @@ export default defineConfig({
   minify: true,
   splitting: false,
   sourcemap: false,
-  clean: false,
+  clean: true,
   treeshake: true,
+  noExternal: ['jszip'],
 
   onSuccess: updateContentScript(Object.keys(modules)),
 });
